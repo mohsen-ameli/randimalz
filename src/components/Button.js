@@ -1,6 +1,6 @@
 const Button = ({ text, click, className }) => {
     return (
-      <button className={className + " bg-blue-500 px-4 py-2 hover:bg-blue-700 rounded text-white relative"} onClick={click}>
+      <button className={className + " bg-blue-500 hover:bg-blue-700 text-sm px-6 py-3 shadow rounded hover:shadow-lg text-white relative font-bold uppercase ease-linear transition-all duration-150"} onClick={click}>
         {text}
       </button>
     )
