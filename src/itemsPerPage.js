@@ -1,0 +1,3 @@
+const INTIAL_NUMBER_OF_ITEMS = 6
+
+export default INTIAL_NUMBER_OF_ITEMS

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import DogFax from "./DogFax";
 import AnimalFax from "./AnimalFax";
+import "./spinner.css";
 
 function App() {
   return (

@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import cute_cat from "../cute_cat.png"
 
 const Navbar = () => {
   let location = useLocation()
@@ -7,8 +8,8 @@ const Navbar = () => {
     <nav className="px-2 sm:px-4 py-2.5 dark:bg-gray-900">
       <div className="container flex flex-wrap justify-center items-center text-white">
         <Link to="/cat" className="flex items-center mr-5">
-          <img className="w-16" src="https://www.svgheart.com/wp-content/uploads/2020/05/cat-silhouette-free-svg-file.png" alt="" />
-          <span className="self-center text-xl font-semibold whitespace-nowrap">Random Fax</span>
+          <img className="w-16 mr-2 rounded-full" src={cute_cat} alt="" />
+          <span className="self-center text-xl font-semibold whitespace-nowrap">Randimal</span>
         </Link>
         <button onClick={() => document.querySelector('#navbar-default').classList.toggle('hidden')} data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
           <span className="sr-only">Open main menu</span>
