@@ -9,6 +9,7 @@ const AnimalFax = () => {
   const [randomFact, setRandomFact] = useState([{}])
   const [showModal, setShowModal] = useState(false)
   const [loading, setLoading] = useState(true)
+  const [urls, setUrls] = useState(null)
 
   const fetchStuff = async (i) => {
     setLoading(true)
@@ -31,12 +32,9 @@ const AnimalFax = () => {
     }
   }, [])
 
-  let fetchWiki = async (t) => {
-    setLoading(true)
-
-    let search = null
-    let title = t.toLowerCase().replaceAll(" ", "_")
-    let url = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${title}&format=json&origin=*`
+  let fetchWikiSearch = async (title) => {
+    let title_ = title.toLowerCase().replaceAll(" ", "_")
+    let url = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${title_}&format=json&origin=*`
 
     let res = await fetch(url, {
       method: "GET",
@@ -44,26 +42,57 @@ const AnimalFax = () => {
     })
     if (res.status === 200) {
       let data = await res.json()
-      search = data.query.search[0].title
+      return data.query.search[0].title
     }
+  }
 
-    let url2 = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=&explaintext=&titles=${search}&format=json&origin=*`
-    let res2 = await fetch(url2, {
+  let fetchWikiContent = async (search) => {
+    let url = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=&explaintext=&titles=${search}&format=json&origin=*`
+    let res = await fetch(url, {
       method: "GET",
       headers: {"Content-Type": "application/json"}
     })
-    if (res2.status === 200) {
-      let data = await res2.json()
+    if (res.status === 200) {
+      let data = await res.json()
       let description = Object.values(data.query.pages)[0].extract
       localStorage.setItem("description", description)
     }
-    setLoading(false)
+  }
+
+  let fetchWikiImage = async (title) => {
+    let imgUrls = []
+    let url = `https://en.wikipedia.org/w/api.php?action=query&titles=${title}&generator=images&gimlimit=1000&prop=imageinfo&iiprop=url&format=json&origin=*`
+    let res = await fetch(url, {
+      method: "GET",
+      headers: {"Content-Type": "application/json"}
+    })
+    if (res.status === 200) {
+      let data = await res.json()
+      Object.values(data.query.pages).map(item => {
+        let imgUrl = item.imageinfo[0].url
+        if (imgUrl.includes(".jpg")) {
+          imgUrls.push(imgUrl)
+        }
+      })
+    }
+    return imgUrls
   }
 
   let handleModal = async (item) => {
-    await fetchWiki(item.name)
+    setLoading(true)
+    let search = await fetchWikiSearch(item.name)
+    await fetchWikiContent(search)
     localStorage.setItem("item", JSON.stringify(item))
+    setLoading(false)
     setShowModal(true)
+  }
+
+  let handleImgClick = async (item) => {
+    setLoading(true)
+    let search = await fetchWikiSearch(item.name)
+    let imgUrls = await fetchWikiImage(search)
+    setUrls(imgUrls)
+    setLoading(false)
   }
 
   return (
@@ -74,7 +103,7 @@ const AnimalFax = () => {
       {/* each card */}
       <div className="container px-4 flex flex-wrap justify-center">
         {randomFact.map((item, key) => (
-          <Card title={item.name} content={item.animal_type} img={item.image_link} click={() => handleModal(item)} key={key} />
+          <Card title={item.name} content={item.animal_type} img={item.image_link} click={() => handleModal(item)} imgClick={() => handleImgClick(item)} key={key} />
         ))}
       </div>
 
@@ -87,6 +116,8 @@ const AnimalFax = () => {
       
       {/* load more */}
       <Button text="Load More" click={() => fetchStuff(INTIAL_NUMBER_OF_ITEMS)} className="my-5" />
+
+      {/* {urls && urls.map(url => <img src={url} alt="" className="object-cover w-full h-100 rounded-t-lg md:h-auto md:w-48 rounded" />)} */}
     </div>
     </>
   );

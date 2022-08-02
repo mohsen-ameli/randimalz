@@ -1,0 +1,6 @@
+.img-slider {
+  transition: ease-in-out 180ms;
+}
+.img-slider:hover {
+  transform: scale(1.3);
+}
