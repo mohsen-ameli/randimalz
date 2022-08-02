@@ -73,6 +73,7 @@ const AnimalFax = () => {
         if (imgUrl.includes(".jpg")) {
           imgUrls.push(imgUrl)
         }
+        return null
       })
     }
     return imgUrls
