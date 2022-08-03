@@ -9,7 +9,6 @@ const AnimalFax = () => {
   const [randomFact, setRandomFact] = useState([{}])
   const [showModal, setShowModal] = useState(false)
   const [loading, setLoading] = useState(true)
-  const [urls, setUrls] = useState(null)
 
   const fetchStuff = async (i) => {
     setLoading(true)
@@ -59,26 +58,6 @@ const AnimalFax = () => {
     }
   }
 
-  let fetchWikiImage = async (title) => {
-    let imgUrls = []
-    let url = `https://en.wikipedia.org/w/api.php?action=query&titles=${title}&generator=images&gimlimit=1000&prop=imageinfo&iiprop=url&format=json&origin=*`
-    let res = await fetch(url, {
-      method: "GET",
-      headers: {"Content-Type": "application/json"}
-    })
-    if (res.status === 200) {
-      let data = await res.json()
-      Object.values(data.query.pages).map(item => {
-        let imgUrl = item.imageinfo[0].url
-        if (imgUrl.includes(".jpg")) {
-          imgUrls.push(imgUrl)
-        }
-        return null
-      })
-    }
-    return imgUrls
-  }
-
   let handleModal = async (item) => {
     setLoading(true)
     let search = await fetchWikiSearch(item.name)
@@ -88,23 +67,14 @@ const AnimalFax = () => {
     setShowModal(true)
   }
 
-  let handleImgClick = async (item) => {
-    setLoading(true)
-    let search = await fetchWikiSearch(item.name)
-    let imgUrls = await fetchWikiImage(search)
-    setUrls(imgUrls)
-    setLoading(false)
-  }
-
   return (
     <>
     {loading && <div className="spinner"><RingLoader color="rgb(29, 78, 216)" size={150} /></div>}
-    
     <div className="cat-fax flex flex-col items-center">
       {/* each card */}
       <div className="container px-4 flex flex-wrap justify-center">
         {randomFact.map((item, key) => (
-          <Card title={item.name} content={item.animal_type} img={item.image_link} click={() => handleModal(item)} imgClick={() => handleImgClick(item)} key={key} />
+          <Card title={item.name} content={item.animal_type} img={item.image_link} click={() => handleModal(item)} key={key} />
         ))}
       </div>
 
@@ -117,8 +87,6 @@ const AnimalFax = () => {
       
       {/* load more */}
       <Button text="Load More" click={() => fetchStuff(INTIAL_NUMBER_OF_ITEMS)} className="my-5" />
-
-      {/* {urls && urls.map(url => <img src={url} alt="" className="object-cover w-full h-100 rounded-t-lg md:h-auto md:w-48 rounded" />)} */}
     </div>
     </>
   );
