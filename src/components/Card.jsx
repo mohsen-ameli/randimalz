@@ -1,8 +1,9 @@
-import ButtonOutline from "./ButtonOutline"
-import '../img.css'
 import { useEffect, useState } from "react"
-import Carousel from "./Carousel"
 import { useLocation } from "react-router-dom"
+
+import ButtonOutline from "./ButtonOutline"
+import Carousel from "./Carousel"
+import '../assets/img.css'
 
 const Card = ({ title, content, img, click, className }) => {
   let location = useLocation()
@@ -50,7 +51,7 @@ const Card = ({ title, content, img, click, className }) => {
 
   useEffect(() => {
     location.pathname === "/animal" && handleImgHover()
-  }, [])
+  })
 
   return (
     <>

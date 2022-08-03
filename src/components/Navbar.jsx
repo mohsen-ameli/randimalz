@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import cute_cat from "../cute_cat.png"
+import cute_cat from "../assets/cute_cat.png"
 
 const Navbar = () => {
   let location = useLocation()
