@@ -10,12 +10,17 @@ const Carousel = ({ urls }) => {
   return (
     <div className="flex flex-row items-center">
 
-      {urls.map((url, key) => (
-        slideNum === key && <img src={url} alt="" className="object-cover w-full h-full rounded-l-lg md:h-auto md:w-80 fade" key={key} />
-      ))}
+        {urls.map((url, key) => (
+          slideNum === key && 
+            <div className="flex group">
+              <img src={url} alt="" className="object-cover w-full h-full rounded-l-lg md:h-auto md:w-80" key={key} />
 
-      <i onClick={prev} className="fa-solid fa-angle-left text-2xl absolute text-white left-2 hover:bg-slate-800 hover:rounded-md p-2 cursor-pointer ease-in duration-100"></i>
-      <i onClick={next} className="fa-solid fa-angle-right text-2xl absolute text-white left-64 hover:bg-slate-800 hover:rounded-md p-2 cursor-pointer ease-in duration-100"></i>
+              {urls.length > 1 && <>
+                <i onClick={prev} className="p-2 fa-solid fa-angle-left text-2xl hidden group-hover:inline absolute left-5 self-center text-white hover:bg-slate-800 hover:rounded-md cursor-pointer ease-in duration-100"></i>
+                <i onClick={next} className="p-2 fa-solid fa-angle-right text-2xl hidden group-hover:inline absolute right-5 self-center text-white hover:bg-slate-800 hover:rounded-md cursor-pointer ease-in duration-100"></i>
+              </>}
+            </div>
+        ))}
     </div>
   );
 }

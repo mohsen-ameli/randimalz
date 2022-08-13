@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    li {
+        @apply p-4
+    }
+    .hidden > li {
+        @apply hover:scale-110 hover:ease-linear duration-75
+    }
+    ul {
+        @apply overflow-hidden
+    }
+}
