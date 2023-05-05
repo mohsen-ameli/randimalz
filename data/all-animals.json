@@ -1,0 +1,2072 @@
+[
+  {
+    "Animal": "Aardvark",
+    "Young": "cub",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "—",
+    "CollateralAdjective": "orycteropodian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Albatross",
+    "Young": "chick",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "flock\ngam (when searching for mates)\nrookery",
+    "CollateralAdjective": "diomedeid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Alligator",
+    "Young": "hatchling",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "congregation",
+    "CollateralAdjective": "eusuchian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Alpaca",
+    "Young": "cria",
+    "Female": "hembra",
+    "Male": "macho",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "camelid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ant",
+    "Young": "larva\npupa",
+    "Female": "queen (fertile)\nsoldier\nworker",
+    "Male": "drone",
+    "CollectiveNoun": "army\nbike\ncolony\nnest\nswarm",
+    "CollateralAdjective": "formic\nmyrmicine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Anteater",
+    "Young": "pup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "—",
+    "CollateralAdjective": "vermilinguan",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Antelope",
+    "Young": "calf",
+    "Female": "doe",
+    "Male": "buck",
+    "CollectiveNoun": "cluster\nherd\ntribe",
+    "CollateralAdjective": "alcelaphine\nantilopine\nbubaline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ape",
+    "Young": "baby\nchild\ninfant",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "band\nfamily\ngroup\nshrewdness\ntroop, group",
+    "CollateralAdjective": "simian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Armadillo",
+    "Young": "baby\npup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "—",
+    "CollateralAdjective": "cingulatan",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Donkey",
+    "Young": "foal",
+    "Female": "jenny",
+    "Male": "jack",
+    "CollectiveNoun": "coffle\ndrove\nherd\npace",
+    "CollateralAdjective": "asinine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Baboon",
+    "Young": "infant",
+    "Female": "babuina",
+    "Male": "?",
+    "CollectiveNoun": "flange\ntroop, group",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Badger",
+    "Young": "cub\nkit",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "cete\ncolony",
+    "CollateralAdjective": "musteline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Barracuda",
+    "Young": "—",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "school",
+    "CollateralAdjective": "percesocine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Bat",
+    "Young": "pup",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "camp\ncloud\ncolony\nflock",
+    "CollateralAdjective": "noctillionine\npteropine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Bear",
+    "Young": "cub",
+    "Female": "she-bear\nsow",
+    "Male": "boar",
+    "CollectiveNoun": "sleuth\nsloth",
+    "CollateralAdjective": "ursine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Beaver",
+    "Young": "kit\nkitten\npup",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "colony\nfamily",
+    "CollateralAdjective": "castoridine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Bee",
+    "Young": "larva\npupa",
+    "Female": "queen\nworker",
+    "Male": "drone",
+    "CollectiveNoun": "cast (a second swarm)\ncluster (of workers around the queen)\ncolony\ndrift\nerst\ngrist\nhive\nnest\nrabble\nstand\nswarm",
+    "CollateralAdjective": "apian\napiarian\napic",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Beetle",
+    "Young": "larva\ngrub (wormlike forms)\nmealworm (darkling beetles)\npupa",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "swarm",
+    "CollateralAdjective": "coleopterous",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Binturong",
+    "Young": "binlet",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "potosine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Bird\nAlso see Aves",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "flight\nflock\npod",
+    "CollateralAdjective": "avian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Boar/wild pig\nAlso see Pig",
+    "Young": "farrow\npiglet\nshoat/shote (just weaned)",
+    "Female": "sow",
+    "Male": "?",
+    "CollectiveNoun": "herd\nsingular\nsounder (groups of 12 or more)",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Bobcat",
+    "Young": "bobkitten",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "feline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Budgerigar",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "flock",
+    "CollateralAdjective": "psittacine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Buffalo",
+    "Young": "calf",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "bubaline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Bull \nSee Cattle",
+    "Young": "",
+    "Female": "",
+    "Male": "",
+    "CollectiveNoun": "",
+    "CollateralAdjective": "",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Butterfly",
+    "Young": "caterpillar\nchrysalis\nlarva\npupa",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "flight\nflutter\nkaleidoscope\nrabble\nswarm",
+    "CollateralAdjective": "rhopaloceran",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Camel",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "caravan\nflock\nherd\ntrain",
+    "CollateralAdjective": "camelid\ncameline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Capybara",
+    "Young": "pup",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cat",
+    "Young": "kit\nkitten",
+    "Female": "molly\npussy\nqueen",
+    "Male": "gib (castrated male)\nking\ntom",
+    "CollectiveNoun": "clowder\ncluster\nclutter\nglaring\nkindle (kittens)\nlitter (kittens)\npillow (kittens)\npounce\nnuisance",
+    "CollateralAdjective": "feline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cattle",
+    "Young": "calf",
+    "Female": "cow\nheifer\nfreemartin",
+    "Male": "bull\nbullock\nox\nsteer",
+    "CollectiveNoun": "drove\ngang\nherd\nobstinancy\nteam (oxen)\ntroop\nyoke (oxen)",
+    "CollateralAdjective": "bovine\ntaurine (male)\nvaccine (female)\nvituline (young)",
+    "CulinaryNounForMeat": "beef\nveal"
+  },
+  {
+    "Animal": "Chamois",
+    "Young": "calf",
+    "Female": "doe",
+    "Male": "bull",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "rupicaprine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cheetah",
+    "Young": "cub",
+    "Female": "she-cheetah",
+    "Male": "cheetah",
+    "CollectiveNoun": "coalition (male)",
+    "CollateralAdjective": "feline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Chicken",
+    "Young": "chick",
+    "Female": "hen\npullet",
+    "Male": "capon (castrated male)\ncock\ncockerel\nrooster",
+    "CollectiveNoun": "brood\nclutch (eggs)\nflock\npeep (chicks)",
+    "CollateralAdjective": "galline",
+    "CulinaryNounForMeat": "poultry"
+  },
+  {
+    "Animal": "Chimpanzee",
+    "Young": "infant",
+    "Female": "empress",
+    "Male": "emperor\nblackback",
+    "CollectiveNoun": "troop, group\ntribe",
+    "CollateralAdjective": "panine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Chinchilla",
+    "Young": "kit",
+    "Female": "sow\nvelvet",
+    "Male": "boar\nbull",
+    "CollectiveNoun": "colony",
+    "CollateralAdjective": "chinchilline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Chough",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "chattering\nclattering",
+    "CollateralAdjective": "corvine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Coati",
+    "Young": "kit\npup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "troop",
+    "CollateralAdjective": "nasuine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cobra",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "quiver",
+    "CollateralAdjective": "elapid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cockroach",
+    "Young": "nymph",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "intrusion",
+    "CollateralAdjective": "blattid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cod",
+    "Young": "codling",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "school",
+    "CollateralAdjective": "gadine\ngadoid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cormorant",
+    "Young": "chick\nshaglet",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "flight\ngulp",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cow \nSee Cattle",
+    "Young": "",
+    "Female": "",
+    "Male": "",
+    "CollectiveNoun": "",
+    "CollateralAdjective": "",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Crab",
+    "Young": "zoea",
+    "Female": "hen\njenny",
+    "Male": "cock\njimmy",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "cancrine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Crane",
+    "Young": "chick\ncolt",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "herd\nsedge\nsege\nsiege",
+    "CollateralAdjective": "alectorine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Cricket",
+    "Young": "nymph",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Crocodile",
+    "Young": "hatchling",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "bask\ncongregation\nfloat\nmenace",
+    "CollateralAdjective": "crocodilian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Crow",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "murder",
+    "CollateralAdjective": "corvine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Curlew",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Deer",
+    "Young": "calf\nfawn",
+    "Female": "doe\n hind\ncow",
+    "Male": "buck\nbull\nhart (red deer)\nstag",
+    "CollectiveNoun": "bunch\nherd\nmob\nrangale",
+    "CollateralAdjective": "cervine\nelaphine",
+    "CulinaryNounForMeat": "humble (organ meat)\nvenison"
+  },
+  {
+    "Animal": "Dinosaur",
+    "Young": "calf (Ornithischia and Sauropodomorpha)\nchick (Theropoda)\nhatchling\njuvenile",
+    "Female": "cow (Ornithischia and Sauropodomorpha)\nhen (Theropoda)",
+    "Male": "bull (Ornithischia and Sauropodomorpha)\ncock (Theropoda)",
+    "CollectiveNoun": "herd (herbivores)\npack (carnivores)",
+    "CollateralAdjective": "dinosaurian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Dog",
+    "Young": "pup\npuppy\nwhelp",
+    "Female": "bitch",
+    "Male": "dog\nsire\nstud",
+    "CollectiveNoun": "comedy (boxers)\ncowardice (curs)\ncry (hounds)\nkennel\nlitter (young)\nmute\npack (wild)",
+    "CollateralAdjective": "canine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Dogfish\nAlso see Shark",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "troop",
+    "CollateralAdjective": "selachian\nsqualoid",
+    "CulinaryNounForMeat": "capeshark (US)\nflake (UK, Australia)\nhuss (UK)\nkahada (Canada)\nrigg (UK)\nrock salmon (UK)\nspiny dogfish"
+  },
+  {
+    "Animal": "Dolphin",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd\npod\nschool\nteam",
+    "CollateralAdjective": "delphine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Dove",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "arc\ncote\ndole\ndule\nflight\npiteousness\npitying",
+    "CollateralAdjective": "columbine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Dragonfly",
+    "Young": "nymph",
+    "Female": "queen",
+    "Male": "drake\nking",
+    "CollectiveNoun": "cluster\nflight",
+    "CollateralAdjective": "anisopteran",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Duck\nAlso see Mallard",
+    "Young": "duckling",
+    "Female": "duck\nhen",
+    "Male": "cock\ndrake",
+    "CollectiveNoun": "badling (on land)\nbrace (on land)\nbunch (on water)\nflock (on land)\nherd (on land)\npaddling (on water)\nraft (on water)\nsafe (on land)\nskein (in flight)\nsord (on land)\nsore (on land)\nstring (in flight)\nteam (in flight)\nwaddling (on land)",
+    "CollateralAdjective": "anatine\nfuliguline",
+    "CulinaryNounForMeat": "poultry"
+  },
+  {
+    "Animal": "Dugong",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "dugongine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Dunlin",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "fling",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Eagle",
+    "Young": "eaglet\nfledgling",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "convocation",
+    "CollateralAdjective": "aquiline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Echidna",
+    "Young": "puggle (in common use, but not scientifically endorsed)",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "—",
+    "CollateralAdjective": "tachyglossine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Eel",
+    "Young": "leptocephalus (larva)\nelver (juvenile)",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "bed\nswarm",
+    "CollateralAdjective": "anguilline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Elephant",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd\nmemory\nparade",
+    "CollateralAdjective": "elephantine\nproboscidean\nproboscine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Elephant seal",
+    "Young": "pup",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "miroungan",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Elk/wapiti",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "gang\nherd",
+    "CollateralAdjective": "cervine",
+    "CulinaryNounForMeat": "venison"
+  },
+  {
+    "Animal": "Emu",
+    "Young": "chick\nhatchling",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "mob",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Falcon",
+    "Young": "eyass/eyas",
+    "Female": "falcon",
+    "Male": "tercel\nterzel\ntiercel",
+    "CollectiveNoun": "cast",
+    "CollateralAdjective": "acciptrine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ferret",
+    "Young": "kit",
+    "Female": "jill",
+    "Male": "hob",
+    "CollectiveNoun": "business\nbusyness",
+    "CollateralAdjective": "musteline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Finch",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "charm",
+    "CollateralAdjective": "fringilline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Fish",
+    "Young": "fingerling\nfry",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "school",
+    "CollateralAdjective": "piscine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Flamingo",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "flamboyance\nstand",
+    "CollateralAdjective": "phoenicopterine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Fly",
+    "Young": "maggot",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "business\ncloud\nswarm",
+    "CollateralAdjective": "dipterous",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Fox",
+    "Young": "cub\nkit\npup",
+    "Female": "vixen",
+    "Male": "dog\nreynard\ntod",
+    "CollectiveNoun": "leash\nskulk",
+    "CollateralAdjective": "vulpine",
+    "CulinaryNounForMeat": "F"
+  },
+  {
+    "Animal": "Frog",
+    "Young": "froglet\npolliwog\ntadpole",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "army",
+    "CollateralAdjective": "ranine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Gazelle",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "gazelline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Gecko",
+    "Young": "hatchling",
+    "Female": "dam (herpetoculture)",
+    "Male": "sire (herpetoculture)",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Gerbil",
+    "Young": "pup",
+    "Female": "doe",
+    "Male": "buck",
+    "CollectiveNoun": "horde",
+    "CollateralAdjective": "gerbilline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Giant panda",
+    "Young": "cub",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "embarrassment \nsleuth",
+    "CollateralAdjective": "ailuropodine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Giraffe",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "corps\nherd\ntower",
+    "CollateralAdjective": "giraffine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Gnat",
+    "Young": "larva",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "cloud\nhorde\nrabble\nswarm",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Gnu",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd\nimplausibility",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Goat",
+    "Young": "kid",
+    "Female": "doe\ndoeling\nnanny",
+    "Male": "billy\nbuck\nbuckling\nwether (castrated)",
+    "CollectiveNoun": "herd\nflock\ntribe\ntrip\ntrippe",
+    "CollateralAdjective": "caprine",
+    "CulinaryNounForMeat": "cabrito\nchevon\nmutton"
+  },
+  {
+    "Animal": "Goldfinch",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "charm",
+    "CollateralAdjective": "cardueline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Goosander",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "dopping",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Goose",
+    "Young": "gosling",
+    "Female": "goose",
+    "Male": "gander",
+    "CollectiveNoun": "chevron (in flight)[citation needed]\nflock (on land)\ngaggle (on land)\nplump (on land)\nskein (in flight)\nteam (in flight)\nwedge (in flight)",
+    "CollateralAdjective": "anatine\nanserine",
+    "CulinaryNounForMeat": "poultry"
+  },
+  {
+    "Animal": "Gorilla",
+    "Young": "infant",
+    "Female": "—",
+    "Male": "blackback\nsilverback",
+    "CollectiveNoun": "band\ntroop, group\nwhoop",
+    "CollateralAdjective": "simian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Goshawk",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "flight",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Grasshopper",
+    "Young": "nymph",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "cloud\nswarm",
+    "CollateralAdjective": "caeliferian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Grouse",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "covey\npack",
+    "CollateralAdjective": "tetraonine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Guanaco",
+    "Young": "chulengo",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "camelid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Guinea fowl",
+    "Young": "keet",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "flock\nrasp",
+    "CollateralAdjective": "numidine",
+    "CulinaryNounForMeat": "poultry"
+  },
+  {
+    "Animal": "Guinea pig",
+    "Young": "pup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": "cuy"
+  },
+  {
+    "Animal": "Gull",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "colony\nflock",
+    "CollateralAdjective": "larine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hamster",
+    "Young": "pup",
+    "Female": "doe",
+    "Male": "buck",
+    "CollectiveNoun": "horde",
+    "CollateralAdjective": "cricetid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hare",
+    "Young": "leveret",
+    "Female": "doe\njill",
+    "Male": "buck\njack",
+    "CollectiveNoun": "band\ndown\ndrove\nflick\nhusk",
+    "CollateralAdjective": "leporine\nleverine[citation needed]",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hawk",
+    "Young": "eyas",
+    "Female": "hen",
+    "Male": "tiercel",
+    "CollectiveNoun": "aerie\nboil (soaring in large groups)\ncast\ncauldron (soaring in large groups)\nflight\nflock\nkettle (soaring in large groups)\nleash\nstaff",
+    "CollateralAdjective": "accipitrine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hedgehog",
+    "Young": "hoglet\npiglet\npup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "array",
+    "CollateralAdjective": "erinaceine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hermit crab",
+    "Young": "zoea",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "paguroid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Heron",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "flight\nsedge\nsege\nsiege",
+    "CollateralAdjective": "ardeidine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Herring",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "army\nglean\nshoal",
+    "CollateralAdjective": "clupeidean",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hippopotamus",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "bloat\nherd\nsea\nthunder",
+    "CollateralAdjective": "hippopotamine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hornet",
+    "Young": "larva\npupa",
+    "Female": "queen",
+    "Male": "drone",
+    "CollectiveNoun": "bike\nnest\nswarm",
+    "CollateralAdjective": "vespine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Horse",
+    "Young": "colt (male)\nfilly (female)\nfoal\nweanling\nyearling",
+    "Female": "dam\nmare",
+    "Male": "gelding (castrated male)\nridgling\nstallion (not castrated)\nstud",
+    "CollectiveNoun": "band (wild horses)\nfield (racehorses)\nharras\nherd (wild horses)\nrag (colts)\nstable\nstring (ponies)\nstud\nteam (work horses)",
+    "CollateralAdjective": "caballine\nequine",
+    "CulinaryNounForMeat": "horseflesh\nhorsemeat"
+  },
+  {
+    "Animal": "Human",
+    "Young": "baby\nboy (male)\nchild\ngirl (female)\ninfant",
+    "Female": "lady (colloquial)\nwoman",
+    "Male": "gentleman (colloquial)\nman",
+    "CollectiveNoun": "band\nclan\ncrowd\nfamily\ngroup\nhorde\ntribe",
+    "CollateralAdjective": "human\nsimian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hummingbird",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "trochilidine\ntrochiline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Hyena",
+    "Young": "cub",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "cackle\nclan",
+    "CollateralAdjective": "hyenine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ibex",
+    "Young": "kid",
+    "Female": "nanny",
+    "Male": "billy",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "caprine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ibis",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "colony",
+    "CollateralAdjective": "ciconiiforme",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Iguana",
+    "Young": "hatchling",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Impala",
+    "Young": "calf",
+    "Female": "ewe",
+    "Male": "ram",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Jaguar",
+    "Young": "cub",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "leap\nparade\nprowl",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Jay",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "band\nparty\nscold",
+    "CollateralAdjective": "corvine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Jellyfish",
+    "Young": "ephyra\nplanula\npolyp",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "bloom\nbrood\nfluther\nsmack\nsmuth",
+    "CollateralAdjective": "scyphozoan",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Junglefowl\n(see chicken)",
+    "Young": "",
+    "Female": "",
+    "Male": "",
+    "CollectiveNoun": "",
+    "CollateralAdjective": "",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Kangaroo",
+    "Young": "joey",
+    "Female": "doe\nflyer\njill\nroo",
+    "Male": "boomer\nbuck\njack",
+    "CollectiveNoun": "court\nherd\nmob\ntroop",
+    "CollateralAdjective": "macropodine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Kingbird",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "court\ntyranny\ncoronation",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Kinkajou",
+    "Young": "kit\npup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "convergence\ntroop",
+    "CollateralAdjective": "potosine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Kite",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "accipitrine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Koala",
+    "Young": "joey",
+    "Female": "doe",
+    "Male": "buck",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "phascolarctine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Komodo dragon",
+    "Young": "calf\nchick\nhatchling",
+    "Female": "cow\nhen",
+    "Male": "bull\ncock",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "varanine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ladybug",
+    "Young": "larva",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "loveliness",
+    "CollateralAdjective": "coleopterous",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Lapwing",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "deceit\ndesert",
+    "CollateralAdjective": "vanelline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Lark",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "exaltation",
+    "CollateralAdjective": "alaudine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Lemur",
+    "Young": "infant",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "conspiracy",
+    "CollateralAdjective": "lemurine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Leopard",
+    "Young": "cub",
+    "Female": "leopardess",
+    "Male": "leopard",
+    "CollectiveNoun": "leap\nlepe",
+    "CollateralAdjective": "pardine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Lion",
+    "Young": "cub",
+    "Female": "lioness",
+    "Male": "lion",
+    "CollectiveNoun": "pride\nsawt",
+    "CollateralAdjective": "leonine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Lizard",
+    "Young": "hatchling",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Llama",
+    "Young": "cria",
+    "Female": "dam\nhembra",
+    "Male": "macho\nstud",
+    "CollectiveNoun": "flock\nherd",
+    "CollateralAdjective": "camelid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Lobster",
+    "Young": "?",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "risk",
+    "CollateralAdjective": "homarine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Locust",
+    "Young": "nymph",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "cloud\nhost\nswarm",
+    "CollateralAdjective": "caelifera",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Loris",
+    "Young": "infant",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "colony",
+    "CollateralAdjective": "lorisine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Louse",
+    "Young": "nymph",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "colony",
+    "CollateralAdjective": "pediculine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Lyrebird",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "musket",
+    "CollateralAdjective": "menurine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Mallard\nAlso see Duck",
+    "Young": "duckling",
+    "Female": "hen",
+    "Male": "greenhead",
+    "CollectiveNoun": "sord\nsuit",
+    "CollateralAdjective": "anatine",
+    "CulinaryNounForMeat": "poultry"
+  },
+  {
+    "Animal": "Mammoth\n(see elephant)",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd\npack",
+    "CollateralAdjective": "mammutine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Manatee",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "manatine\nsirenian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Mandrill",
+    "Young": "infant",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "horde",
+    "CollateralAdjective": "simian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Manta ray",
+    "Young": "fry",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "feline[citation needed]",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Mantis",
+    "Young": "nymph",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "swarm",
+    "CollateralAdjective": "caelifera",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Meerkat",
+    "Young": "meerkitten",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "herpestine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Mink",
+    "Young": "cub\nkit",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "musteline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Mole",
+    "Young": "pup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "labor",
+    "CollateralAdjective": "talpine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Mongoose",
+    "Young": "pup",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "committee\ndelegation\ntroop",
+    "CollateralAdjective": "herpestine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Monkey",
+    "Young": "infant",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "group, troop",
+    "CollateralAdjective": "simian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Moose",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "cervine",
+    "CulinaryNounForMeat": "venison"
+  },
+  {
+    "Animal": "Mosquito",
+    "Young": "nymph\ntumbler\nwriggled",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "cloud\nscourge\nswarm",
+    "CollateralAdjective": "aedine\nanopheline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Mouse",
+    "Young": "crawler (as pet feed)\nfuzzy (as pet feed)\nhopper (as pet feed)\npinky (as pet feed)\npup",
+    "Female": "doe",
+    "Male": "buck",
+    "CollectiveNoun": "colony\nnest",
+    "CollateralAdjective": "murine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Narwhal",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "pod\nherd\nschool\ngam\ngrind",
+    "CollateralAdjective": "cetacean\ncetaceous",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Newt",
+    "Young": "eft",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "pleurodeline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Nightingale",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "watch",
+    "CollateralAdjective": "philomelian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Octopus",
+    "Young": "fry[citation needed]",
+    "Female": "hen",
+    "Male": "?",
+    "CollectiveNoun": "consortium",
+    "CollateralAdjective": "octopodine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Okapi",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "okapine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Opossum",
+    "Young": "joey",
+    "Female": "jill",
+    "Male": "jack",
+    "CollectiveNoun": "passel",
+    "CollateralAdjective": "didelphine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ostrich",
+    "Young": "chick\nhatchling",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "flock\ntroop",
+    "CollateralAdjective": "ratite\nstruthious",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Otter",
+    "Young": "pup\nwhelp",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "family\nromp",
+    "CollateralAdjective": "lutrine\nmusteline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ox\nSee Cattle",
+    "Young": "",
+    "Female": "",
+    "Male": "",
+    "CollectiveNoun": "",
+    "CollateralAdjective": "",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Owl",
+    "Young": "fledgling\nowlet",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "parliament",
+    "CollateralAdjective": "strigine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Oyster",
+    "Young": "spat",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "bed",
+    "CollateralAdjective": "ostracine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Panther",
+    "Young": "cub",
+    "Female": "pantheress",
+    "Male": "panther",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "pantherine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Parrot",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "flock",
+    "CollateralAdjective": "psittacine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Panda\nSee Giant panda",
+    "Young": "",
+    "Female": "",
+    "Male": "",
+    "CollectiveNoun": "",
+    "CollateralAdjective": "",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Partridge",
+    "Young": "chick",
+    "Female": "chantelle\nhen",
+    "Male": "cock",
+    "CollectiveNoun": "covey\nroost",
+    "CollateralAdjective": "perdicine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Peafowl",
+    "Young": "chick\npeachick",
+    "Female": "peahen",
+    "Male": "peacock",
+    "CollectiveNoun": "ostentation",
+    "CollateralAdjective": "pavonine",
+    "CulinaryNounForMeat": "poultry"
+  },
+  {
+    "Animal": "Pelican",
+    "Young": "chick\nnestling",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "pod\nscoop",
+    "CollateralAdjective": "pelecanine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Penguin",
+    "Young": "chick\nnestling",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "colony\nhuddle\nraft (in water)\nrookery\ntuxedo\nwaddle (on land)",
+    "CollateralAdjective": "spheniscine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Pheasant",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "bouquet\nflock\nnest\nnide\nnye",
+    "CollateralAdjective": "phasianine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Pig\nAlso see Boar",
+    "Young": "farrow\npiglet\nshoat/shote (just weaned)",
+    "Female": "gilt (not bred)\nsow (bred)",
+    "Male": "barrow (castrated)\nboar\nhog",
+    "CollectiveNoun": "drift\ndrove\nlitter (piglets)\nsounder (older pigs)\nteam (older pigs)",
+    "CollateralAdjective": "porcine\nsuilline",
+    "CulinaryNounForMeat": "bacon\nham\npork"
+  },
+  {
+    "Animal": "Pigeon",
+    "Young": "squab\nsqueaker",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "flight\nflock\nkit",
+    "CollateralAdjective": "pullastrine",
+    "CulinaryNounForMeat": "squab"
+  },
+  {
+    "Animal": "Polar bear",
+    "Young": "cub",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "aurora\ncelebration\npack",
+    "CollateralAdjective": "ursine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Pony\nSee Horse",
+    "Young": "",
+    "Female": "",
+    "Male": "",
+    "CollectiveNoun": "",
+    "CollateralAdjective": "",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Porcupine",
+    "Young": "pup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "prickle",
+    "CollateralAdjective": "hystricine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Porpoise",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "pod\nschool\nshoal",
+    "CollateralAdjective": "phocoenine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Prairie dog",
+    "Young": "pup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "town",
+    "CollateralAdjective": "cynomurine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Pug",
+    "Young": "pup",
+    "Female": "bitch",
+    "Male": "dog\nsire\nstud",
+    "CollectiveNoun": "grumble",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Quail",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "bevy",
+    "CollateralAdjective": "galliformine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Rabbit",
+    "Young": "bunny\nkit\nkitten\nnestling",
+    "Female": "doe\njill",
+    "Male": "buck\njack\nyoyo",
+    "CollectiveNoun": "litter (young)\nnest\nwarren\nwrack (young)",
+    "CollateralAdjective": "leporine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Raccoon",
+    "Young": "cub\nkit",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "brace\ncommittee\ngaze\nnursery\nsmack\ntroop",
+    "CollateralAdjective": "procyonine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Ram\nAlso see Sheep",
+    "Young": "lamb",
+    "Female": "ewe",
+    "Male": "ram",
+    "CollectiveNoun": "flock",
+    "CollateralAdjective": "arietine\novine",
+    "CulinaryNounForMeat": "lamb\nmutton"
+  },
+  {
+    "Animal": "Rat",
+    "Young": "kitten[citation needed]\npup",
+    "Female": "doe",
+    "Male": "buck",
+    "CollectiveNoun": "colony\nhorde\nmischief",
+    "CollateralAdjective": "murine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Raven",
+    "Young": "chick",
+    "Female": "hen",
+    "Male": "cock",
+    "CollectiveNoun": "conspiracy\nunkindness",
+    "CollateralAdjective": "corvid\ncorvine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Red deer",
+    "Young": "calf",
+    "Female": "hind",
+    "Male": "hart\nstag",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": "venison"
+  },
+  {
+    "Animal": "Red panda",
+    "Young": "cub",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "pack",
+    "CollateralAdjective": "ailurid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Rhinoceros",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "crash\nherd",
+    "CollateralAdjective": "ceratorhine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Rook",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "building\nparliament",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Salamander",
+    "Young": "larva",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "maelstrom",
+    "CollateralAdjective": "caudatan\nsalamandrine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Salmon",
+    "Young": "parr",
+    "Female": "hen\njen",
+    "Male": "cock\njack",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "salmonine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Sand dollar",
+    "Young": "juvenile (young urchin)\nlarva pluteus (free-swimming stage)",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "clypeasteroid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Sandpiper",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "fling",
+    "CollateralAdjective": "scolopacine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Sardine",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "family",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Sea lion",
+    "Young": "pup",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "otarine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Seahorse",
+    "Young": "seafoal",
+    "Female": "seamare",
+    "Male": "seastallion",
+    "CollectiveNoun": "shoal",
+    "CollateralAdjective": "hippocampal",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Seal",
+    "Young": "pup",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd\npod\nrookery",
+    "CollateralAdjective": "phoca",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Sea otter",
+    "Young": "pup",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "raft",
+    "CollateralAdjective": "lutrine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Shark",
+    "Young": "cub\npup",
+    "Female": "?",
+    "Male": "bull",
+    "CollectiveNoun": "shiver",
+    "CollateralAdjective": "selachian\nsqualoid",
+    "CulinaryNounForMeat": "flake (AUS)"
+  },
+  {
+    "Animal": "Sheep\nAlso see Ram",
+    "Young": "cosset\nlamb\nlambkin",
+    "Female": "dam\newe",
+    "Male": "buck\nram\nwether (castrated)",
+    "CollectiveNoun": "flock\nfold\nherd",
+    "CollateralAdjective": "ovine",
+    "CulinaryNounForMeat": "hogget\nlamb\nmutton"
+  },
+  {
+    "Animal": "Shrew",
+    "Young": "shrewlet",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "colony\ndrove",
+    "CollateralAdjective": "soricine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Skink",
+    "Young": "skinklet",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "scincine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Skipper",
+    "Young": "caterpillar",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "hesperiine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Skunk",
+    "Young": "kit",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "surfeit",
+    "CollateralAdjective": "mephitine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Sloth",
+    "Young": "baby\nkitten\npup",
+    "Female": "sow",
+    "Male": "boar",
+    "CollectiveNoun": "—",
+    "CollateralAdjective": "xenarthran (broader group)",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Snail",
+    "Young": "?",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "escargatoire\nrout\nwalk",
+    "CollateralAdjective": "gastropodian",
+    "CulinaryNounForMeat": "escargot"
+  },
+  {
+    "Animal": "Snake",
+    "Young": "hatchling (newly hatched)\nneonate (newborn)\nsnakelet",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "ball\nnest\nslither",
+    "CollateralAdjective": "anguine\nelapine\nophidian\nserpentine\nviperine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Spider",
+    "Young": "spiderling",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "cluster\nclutter",
+    "CollateralAdjective": "arachnine\narachnoid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Spoonbill",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "bowl",
+    "CollateralAdjective": "ciconiiforme",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Squid",
+    "Young": "paralarva",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "shoal",
+    "CollateralAdjective": "teuthidane",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Squirrel",
+    "Young": "kit\nkitten\npup",
+    "Female": "doe",
+    "Male": "buck",
+    "CollectiveNoun": "scurry",
+    "CollateralAdjective": "sciurine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Starfish",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "asteroid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Starling",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "chattering\nmurmuration",
+    "CollateralAdjective": "sturnine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Stilt",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "recurvirostrid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Stingray",
+    "Young": "pup",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "fever",
+    "CollateralAdjective": "squaloid",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Swan",
+    "Young": "cygnet\nflapper",
+    "Female": "pen",
+    "Male": "cob",
+    "CollectiveNoun": "bevy\nflock\ngame\nlamentation\nwedge (in flight)",
+    "CollateralAdjective": "cygnine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Tapir",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd",
+    "CollateralAdjective": "tapirine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Tarsier",
+    "Young": "?",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "tarsiine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Termite",
+    "Young": "larva",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "colony\nnest\nswarm",
+    "CollateralAdjective": "isopteran",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Thrush",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "turdine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Tiger",
+    "Young": "cub\nwhelp",
+    "Female": "tigress",
+    "Male": "tiger",
+    "CollectiveNoun": "ambush\nstreak",
+    "CollateralAdjective": "tigrine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Toad",
+    "Young": "tadpole\ntoadlet",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "knot",
+    "CollateralAdjective": "batrachian\nranine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Toucan",
+    "Young": "chick",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "durante",
+    "CollateralAdjective": "ramphasto",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Turkey",
+    "Young": "poult",
+    "Female": "hen",
+    "Male": "gobbler\njake (immature)\nstag\ntom",
+    "CollectiveNoun": "rafter",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": "poultry"
+  },
+  {
+    "Animal": "Turtle",
+    "Young": "hatchling",
+    "Female": "—",
+    "Male": "—",
+    "CollectiveNoun": "bale",
+    "CollateralAdjective": "chelonian",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Viper",
+    "Young": "hatchling",
+    "Female": "?",
+    "Male": "?",
+    "CollectiveNoun": "?",
+    "CollateralAdjective": "viperine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Wallaby",
+    "Young": "joey",
+    "Female": "jill",
+    "Male": "jack",
+    "CollectiveNoun": "mob",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Walrus",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "herd\npod",
+    "CollateralAdjective": "odobenine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Wasp",
+    "Young": "larva",
+    "Female": "queen\nworker",
+    "Male": "drone",
+    "CollectiveNoun": "colony\nhive\nnest\nswarm",
+    "CollateralAdjective": "vespine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Weasel",
+    "Young": "kit\npup",
+    "Female": "bitch\ndoe\njill",
+    "Male": "buck\ndog\nhub\njack",
+    "CollectiveNoun": "gang\nsneak",
+    "CollateralAdjective": "musteline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Whale",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "gam\npod\nschool",
+    "CollateralAdjective": "cetacean\ncetaceous",
+    "CulinaryNounForMeat": "blubber"
+  },
+  {
+    "Animal": "Wildebeest",
+    "Young": "calf",
+    "Female": "cow",
+    "Male": "bull",
+    "CollectiveNoun": "confusion",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Wolf",
+    "Young": "cub\npup\npuppy\nwhelp",
+    "Female": "bitch\nshe-wolf",
+    "Male": "dog",
+    "CollectiveNoun": "pack",
+    "CollateralAdjective": "canine\nlupine",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Wolverine",
+    "Young": "kit\nwhelp",
+    "Female": "angeline",
+    "Male": "wolverine",
+    "CollectiveNoun": "pack",
+    "CollateralAdjective": "musteline",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Wombat",
+    "Young": "joey",
+    "Female": "jill",
+    "Male": "jack",
+    "CollectiveNoun": "wisdom",
+    "CollateralAdjective": "?",
+    "CulinaryNounForMeat": ""
+  },
+  {
+    "Animal": "Zebra",
+    "Young": "colt (male)\nfilly (female)\nfoal",
+    "Female": "mare",
+    "Male": "stallion",
+    "CollectiveNoun": "cohort\ndazzle\nherd\nzeal",
+    "CollateralAdjective": "hippotigrine\nzebrine",
+    "CulinaryNounForMeat": ""
+  }
+]
