@@ -28,17 +28,16 @@ type QueryResponse = {
 // Search wikipedia based on the given title
 export default async function fetchWikiSearch(title: string) {
   const title_ = title.toLowerCase().replaceAll(" ", "_")
-  const url = `${BASE_URL}?action=query&list=search&srsearch=${title_}&format=json&origin=*`
 
-  const res = await fetch(url)
+  const searchParams = new URLSearchParams({
+    action: "query",
+    list: "search",
+    srsearch: title_,
+    format: "json",
+    origin: "*",
+  })
 
-  if (res.status === 200) {
-    const data: QueryResponse = await res.json()
-
-    try {
-      return data.query.search[0].title
-    } catch (error) {}
-  }
-
-  return title
+  const res = await fetch(BASE_URL + searchParams)
+  const data: QueryResponse = await res.json()
+  return data.query.search[0].title
 }

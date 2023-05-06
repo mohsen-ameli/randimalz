@@ -1,22 +1,20 @@
-"use client"
-
 import { Animal } from "@/app/Animal.type"
 import Image from "next/image"
-import { useState } from "react"
+import { Suspense } from "react"
 import Modal from "./modal"
+import Loading from "@/app/loading"
 
 type CardProps = {
   randAnimal: Animal
 }
 
 const Card = ({ randAnimal }: CardProps) => {
-  const [modal, setModal] = useState(false)
-  const toggleModal = () => setModal(curr => !curr)
-
   return (
     <>
-      {/* @ts-ignore */}
-      <Modal animal={randAnimal} />
+      <Suspense fallback={<Loading />}>
+        {/* @ts-ignore */}
+        <Modal animal={randAnimal} />
+      </Suspense>
 
       <div className="card glass bg-base-100 shadow-xl lg:card-side">
         <figure className="group relative flex duration-150 hover:scale-125 hover:ease-in-out">
@@ -44,7 +42,6 @@ const Card = ({ randAnimal }: CardProps) => {
           <div className="card-actions justify-end">
             <label
               className="btn-outline btn-success btn"
-              onClick={toggleModal}
               htmlFor="MoreInfoModal"
             >
               More Info

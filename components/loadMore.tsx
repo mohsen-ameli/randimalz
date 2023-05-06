@@ -1,11 +1,10 @@
 "use client"
 
 import { AnimalQuery } from "@/app/Animal.type"
-import { fetchAnimals } from "@/app/api/animals/fetchAnimals"
+import { fetchAnimals } from "@/lib/animals/fetchAnimals"
 
 const LoadMore = ({ animals }: { animals: AnimalQuery[] }) => {
   const handleClick = async () => {
-    console.log("here", animals.length)
     const newAnimal = await fetchAnimals(1)
     animals.push(newAnimal[0])
   }

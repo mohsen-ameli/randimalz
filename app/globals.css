@@ -15,7 +15,7 @@
 }
 
 .spinner {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: #00000026;
   overflow-y: auto;
   display: flex;
   position: fixed;

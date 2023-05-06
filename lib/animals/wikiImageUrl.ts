@@ -24,9 +24,16 @@ type QueryResponse = {
 
 // Convert the image name to a full url
 export default async function fetchWikiImageUrl(imgUrl: string) {
-  const res = await fetch(
-    `${BASE_URL}?action=query&titles=Image:${imgUrl}&prop=imageinfo&iiprop=url&format=json&origin=*`
-  )
+  const searchParams = new URLSearchParams({
+    action: "query",
+    titles: `Image:${imgUrl}`,
+    prop: "imageinfo",
+    iiprop: "url",
+    format: "json",
+    origin: "*",
+  })
+
+  const res = await fetch(BASE_URL + searchParams)
 
   if (res.status === 200) {
     const data: QueryResponse = await res.json()

@@ -16,9 +16,17 @@ type QueryResponse = {
 
 // Gets the content of the wiki page
 export default async function fetchWikiContent(search: string) {
-  const res = await fetch(
-    `${BASE_URL}?action=query&prop=extracts&exintro=&explaintext=&titles=${search}&format=json&origin=*`
-  )
+  const searchParams = new URLSearchParams({
+    action: "query",
+    prop: "extracts",
+    exintro: "true",
+    explaintext: "true",
+    titles: search,
+    format: "json",
+    origin: "*",
+  })
+
+  const res = await fetch(BASE_URL + searchParams)
   if (res.status === 200) {
     const data: QueryResponse = await res.json()
     const description = Object.values(data.query.pages)[0].extract

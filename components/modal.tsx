@@ -1,6 +1,6 @@
 import { Animal } from "@/app/Animal.type"
-import fetchWikiContent from "@/app/api/animals/wikiContent"
-import fetchWikiSearch from "@/app/api/animals/wikiSearch"
+import fetchWikiContent from "@/lib/animals/wikiContent"
+import fetchWikiSearch from "@/lib/animals/wikiSearch"
 
 export default async function Modal({ animal }: { animal: Animal }) {
   const search = await fetchWikiSearch(animal.Animal)

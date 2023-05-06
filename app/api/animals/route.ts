@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server"
 import path from "path"
 import { promises as fs } from "fs"
-import fetchWikiSearch from "./wikiSearch"
-import fetchWikiImages from "./wikiImages"
 import { Animal } from "@/app/Animal.type"
+import fetchWikiSearch from "@/lib/animals/wikiSearch"
+import fetchWikiImages from "@/lib/animals/wikiImages"
 
 export async function GET() {
   const jsonDirectory = path.join(process.cwd(), "data")
@@ -22,11 +22,13 @@ export async function GET() {
     return NextResponse.json({
       message: "Success",
       randAnimal,
+      status: 200,
     })
   } catch (error) {
     return NextResponse.json({
       message: "Error",
       error,
+      status: 400,
     })
   }
 }
