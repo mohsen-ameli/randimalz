@@ -35,17 +35,13 @@ export default async function fetchWikiImageUrl(imgUrl: string) {
 
   const res = await fetch(BASE_URL + searchParams)
 
-  if (res.status === 200) {
-    const data: QueryResponse = await res.json()
-    const pages = data.query.pages
+  const data: QueryResponse = await res.json()
+  const pages = data.query.pages
 
-    for (const key in pages) {
-      const item = pages[key]
-      if (
-        item.imageinfo[0].url.includes("jpg") ||
-        item.imageinfo[0].url.includes("png")
-      )
-        return item.imageinfo[0].url
-    }
+  for (const key in pages) {
+    const item = pages[key]
+    const url = item.imageinfo[0].url.toLowerCase()
+    if (!url.includes("icon") && (url.includes("jpg") || url.includes("png")))
+      return item.imageinfo[0].url
   }
 }

@@ -42,7 +42,6 @@ export default async function fetchWikiImages(search: string) {
   })
 
   const res = await fetch(BASE_URL + searchParams)
-
   const data: QueryResponse = await res.json()
   const pages = data.query.pages
 
