@@ -1,27 +1,29 @@
 import { Animal } from "@/app/Animal.type"
 import Image from "next/image"
-import { Suspense } from "react"
 import Modal from "./modal"
-import Loading from "@/app/loading"
+import { useState } from "react"
 
 type CardProps = {
   randAnimal: Animal
 }
 
-const Card = ({ randAnimal }: CardProps) => {
+export default function Card({ randAnimal }: CardProps) {
+  const [clicked, setClicked] = useState(false)
+
+  const handleClick = () => {
+    setClicked(curr => !curr)
+  }
+
   return (
     <>
-      <Suspense fallback={<Loading />}>
-        {/* @ts-ignore */}
-        <Modal animal={randAnimal} />
-      </Suspense>
+      {clicked && <Modal animal={randAnimal} />}
 
-      <div className="card glass bg-base-100 shadow-xl lg:card-side">
+      <div className="card glass bg-base-100 shadow-xl">
         <figure className="group relative flex duration-150 hover:scale-125 hover:ease-in-out">
           <Image
             width={500}
             height={500}
-            className="h-[200px] w-full object-cover lg:h-full lg:w-[200px]"
+            className="h-[200px] w-full object-cover"
             alt={randAnimal.Animal}
             src={randAnimal.images ? randAnimal.images[0] : "."}
           />
@@ -41,8 +43,9 @@ const Card = ({ randAnimal }: CardProps) => {
           <p>{randAnimal.Animal}</p>
           <div className="card-actions justify-end">
             <label
-              className="btn-outline btn-success btn"
+              className="btn-outline btn-success btn mt-4 md:mt-0 w-full"
               htmlFor="MoreInfoModal"
+              onClick={handleClick}
             >
               More Info
             </label>
@@ -52,5 +55,3 @@ const Card = ({ randAnimal }: CardProps) => {
     </>
   )
 }
-
-export default Card

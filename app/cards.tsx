@@ -1,26 +1,31 @@
-// "use client"
+"use client"
 
-// import { use, useState } from "react"
-// import { INITIAL_CARDS_COUNT } from "@/data/data"
-// import Card from "@/components/card"
-// import { fetchAnimals } from "./api/animals/fetchAnimals"
-// import { AnimalQuery } from "./Animal.type"
-// import LoadMore from "@/components/loadMore"
+import { Suspense, useState } from "react"
+import Card from "@/components/card"
+import { AnimalQuery } from "./Animal.type"
+import { fetchAnimals } from "@/lib/animals/fetchAnimals"
+import Loading from "./loading"
 
-// const Cards = () => {
-//   const [animals, setAnimals] = useState<AnimalQuery[]>(
-//     use<AnimalQuery[]>(fetchAnimals(INITIAL_CARDS_COUNT))
-//   )
+export default function Cards({ initial }: { initial: AnimalQuery[] }) {
+  const [animals, setAnimals] = useState(initial)
 
-//   return (
-//     <>
-//       {animals.map((animal, i) => (
-//         <Card key={i} randAnimal={animal.randAnimal} />
-//       ))}
+  const handleClick = async () => {
+    const newAnimal = await fetchAnimals(1)
+    setAnimals(curr => [...curr, newAnimal[0]])
+  }
 
-//       <LoadMore setAnimals={setAnimals} />
-//     </>
-//   )
-// }
+  return (
+    <>
+      {/* Every animal card */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {animals.map((animal, i) => (
+          <Card key={i} randAnimal={animal.randAnimal} />
+        ))}
+      </div>
 
-// export default Cards
+      <button className="btn-outline btn-info btn my-8" onClick={handleClick}>
+        Load More
+      </button>
+    </>
+  )
+}
