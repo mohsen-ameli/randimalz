@@ -9,23 +9,21 @@ type CardProps = {
 
 export default function Card({ randAnimal }: CardProps) {
   const [clicked, setClicked] = useState(false)
-
-  const handleClick = () => {
-    setClicked(curr => !curr)
-  }
+  const toggleModal = () => setClicked(curr => !curr)
 
   return (
     <>
-      {clicked && <Modal animal={randAnimal} />}
+      {clicked && <Modal animal={randAnimal} toggleModal={toggleModal} />}
 
       <div className="card glass bg-base-100 shadow-xl">
         <figure className="group relative flex duration-150 hover:scale-125 hover:ease-in-out">
           <Image
             width={500}
             height={500}
+            priority
             className="h-[200px] w-full object-cover"
             alt={randAnimal.Animal}
-            src={randAnimal.images ? randAnimal.images[0] : "."}
+            src={randAnimal.images ? randAnimal.images[0] : ""}
           />
           {randAnimal.images && randAnimal.images.length > 1 && (
             <>
@@ -42,13 +40,12 @@ export default function Card({ randAnimal }: CardProps) {
           <h2 className="card-title">{randAnimal.Animal}</h2>
           <p>{randAnimal.Animal}</p>
           <div className="card-actions justify-end">
-            <label
+            <button
               className="btn-outline btn-success btn mt-4 md:mt-0 w-full"
-              htmlFor="MoreInfoModal"
-              onClick={handleClick}
+              onClick={toggleModal}
             >
               More Info
-            </label>
+            </button>
           </div>
         </div>
       </div>

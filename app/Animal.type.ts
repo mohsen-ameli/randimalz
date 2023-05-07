@@ -1,5 +1,6 @@
 export type Animal = {
   images?: string[]
+  description: string
   Animal: string
   Young: string
   Female: string

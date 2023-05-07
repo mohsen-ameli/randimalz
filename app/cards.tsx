@@ -1,10 +1,9 @@
 "use client"
 
-import { Suspense, useState } from "react"
+import { useState } from "react"
 import Card from "@/components/card"
 import { AnimalQuery } from "./Animal.type"
 import { fetchAnimals } from "@/lib/animals/fetchAnimals"
-import Loading from "./loading"
 
 export default function Cards({ initial }: { initial: AnimalQuery[] }) {
   const [animals, setAnimals] = useState(initial)

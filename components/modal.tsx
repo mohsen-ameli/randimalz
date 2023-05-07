@@ -1,37 +1,53 @@
-"use client"
-
 import { Animal } from "@/app/Animal.type"
-import fetchWikiContent from "@/lib/animals/wikiContent"
-import fetchWikiSearch from "@/lib/animals/wikiSearch"
-import { useEffect, useState } from "react"
+import { useEffect, useRef } from "react"
 
-export default function Modal({ animal }: { animal: Animal }) {
-  const [description, setDescription] = useState("")
-  const [name, setName] = useState(animal.Animal)
+export default function Modal({
+  animal,
+  toggleModal,
+}: {
+  animal: Animal
+  toggleModal: () => void
+}) {
+  const ref = useRef<HTMLDialogElement>(null)
+
+  function handleClose() {
+    ref.current?.close()
+    toggleModal()
+  }
+
+  function handleClickOutside(e: MouseEvent) {
+    if (!ref.current) return
+    const dialogDimensions = ref.current.getBoundingClientRect()
+    if (
+      e.clientX < dialogDimensions.left ||
+      e.clientX > dialogDimensions.right ||
+      e.clientY < dialogDimensions.top ||
+      e.clientY > dialogDimensions.bottom
+    ) {
+      ref.current.close()
+    }
+  }
 
   useEffect(() => {
-    async function fetchDescription() {
-      const search = await fetchWikiSearch(name)
-      const description_ = await fetchWikiContent(search)
-      setDescription(description_!)
-    }
-    fetchDescription()
+    if (!ref.current) return
+    const modal = ref.current
 
-    return () => {
-      setDescription("")
-      setName("")
-    }
-  }, [name])
+    modal.showModal()
+    modal.addEventListener("click", handleClickOutside)
+
+    return () => modal.removeEventListener("click", handleClickOutside)
+  }, [])
 
   return (
-    <div className="cursor-default absolute">
-      <input type="checkbox" id="MoreInfoModal" className="modal-toggle" />
-      <label htmlFor="MoreInfoModal" className="modal cursor-pointer">
-        <label className="modal-box relative" htmlFor="">
-          <h3 className="text-lg font-bold">{name}</h3>
-          <p className="py-4">{description}</p>
-        </label>
-      </label>
-    </div>
+    <dialog
+      className="z-20 bg-slate-800 max-w-[50%] max-h-[75%] rounded-xl backdrop:bg-[#00000065]"
+      ref={ref}
+    >
+      <h3 className="text-lg font-bold">{animal.Animal}</h3>
+      <p className="py-4">{animal.description}</p>
+      <button className="btn btn-primary mt-2" onClick={handleClose}>
+        close
+      </button>
+    </dialog>
   )
 }

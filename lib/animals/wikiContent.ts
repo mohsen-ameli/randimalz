@@ -27,9 +27,7 @@ export default async function fetchWikiContent(search: string) {
   })
 
   const res = await fetch(BASE_URL + searchParams)
-  if (res.status === 200) {
-    const data: QueryResponse = await res.json()
-    const description = Object.values(data.query.pages)[0].extract
-    return description
-  }
+  const data: QueryResponse = await res.json()
+  const description = Object.values(data.query.pages)[0].extract
+  return description
 }

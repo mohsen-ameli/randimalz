@@ -4,6 +4,7 @@ import { promises as fs } from "fs"
 import { Animal } from "@/app/Animal.type"
 import fetchWikiSearch from "@/lib/animals/wikiSearch"
 import fetchWikiImages from "@/lib/animals/wikiImages"
+import fetchDescription from "@/lib/animals/fetchDescription"
 
 export async function GET() {
   const jsonDirectory = path.join(process.cwd(), "data")
@@ -16,8 +17,10 @@ export async function GET() {
   try {
     const search = await fetchWikiSearch(randAnimal.Animal)
     const images = await fetchWikiImages(search)
+    const description = await fetchDescription(randAnimal.Animal)
 
     randAnimal.images = images
+    randAnimal.description = description
 
     return NextResponse.json({
       message: "Success",
