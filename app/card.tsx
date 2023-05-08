@@ -1,6 +1,6 @@
 import { Animal } from "@/app/Animal.type"
 import Image from "next/image"
-import Modal from "./modal"
+import Modal from "../components/modal"
 import { useState } from "react"
 
 type CardProps = {

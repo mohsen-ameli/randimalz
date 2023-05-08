@@ -27,6 +27,7 @@ const Navbar = () => {
 
         {/* [ PC ] Navbar Items */}
         <ul className="hidden md:flex flex-row justify-center text-xl">
+          <NavItem href="/credits" text="Credits" />
           <NavItem href="/cats" text="Cat Facts" />
           <NavItem href="/dogs" text="Dog Facts" />
           <NavItem href="/" text="Animal Facts" />
@@ -47,6 +48,7 @@ const Navbar = () => {
         }
         onClick={handleNav}
       >
+        <NavItem href="/credits" text="Credits" collapsed />
         <NavItem href="/cats" text="Cat Facts" collapsed />
         <NavItem href="/dogs" text="Dog Facts" collapsed />
         <NavItem href="/" text="Animal Facts" collapsed />

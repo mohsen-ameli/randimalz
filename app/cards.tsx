@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import Card from "@/components/card"
+import Card from "./card"
 import { AnimalQuery } from "./Animal.type"
 import { fetchAnimals } from "@/lib/animals/fetchAnimals"
 import Loading from "./loading"

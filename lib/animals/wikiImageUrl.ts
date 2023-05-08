@@ -41,7 +41,11 @@ export default async function fetchWikiImageUrl(imgUrl: string) {
   for (const key in pages) {
     const item = pages[key]
     const url = item.imageinfo[0].url.toLowerCase()
-    if (!url.includes("icon") && (url.includes("jpg") || url.includes("png")))
+    if (
+      !url.includes("icon") &&
+      !url.includes("wapiti_from_wagon_trails.jpg") &&
+      (url.includes("jpg") || url.includes("png"))
+    )
       return item.imageinfo[0].url
   }
 }

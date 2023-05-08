@@ -1,5 +1,3 @@
-const Dogs = () => {
+export default function Dogs() {
   return <div className="">dogs</div>
 }
-
-export default Dogs
