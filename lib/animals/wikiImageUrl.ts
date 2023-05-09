@@ -1,4 +1,7 @@
 import { BASE_URL } from "@/data/data"
+import axios from "axios"
+
+export const dynamic = "force-dynamic"
 
 // Thanks ChatGPT
 type QueryResponse = {
@@ -33,9 +36,9 @@ export default async function fetchWikiImageUrl(imgUrl: string) {
     origin: "*",
   })
 
-  const res = await fetch(BASE_URL + searchParams)
-
-  const data: QueryResponse = await res.json()
+  const { data }: { data: QueryResponse } = await axios.get(
+    BASE_URL + searchParams
+  )
   const pages = data.query.pages
 
   for (const key in pages) {

@@ -1,13 +1,15 @@
-import { AnimalQuery } from "@/app/Animal.type"
+import { AnimalQuery } from "@/types/Animal.type"
+import axios from "axios"
+
+export const dynamic = "force-dynamic"
 
 export async function fetchAnimals(limit: number) {
   const animals: AnimalQuery[] = []
 
   for (let i = 0; i < limit; i++) {
-    const res = await fetch("http://localhost:3000/api/animals", {
-      cache: "no-cache",
-    })
-    const data: AnimalQuery = await res.json()
+    const { data }: { data: AnimalQuery } = await axios.get(
+      process.env.API_URL + "/api/animals"
+    )
     animals.push(data)
   }
 

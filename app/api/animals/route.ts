@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server"
 import path from "path"
 import { promises as fs } from "fs"
-import { Animal } from "@/app/Animal.type"
+import { Animal } from "@/types/Animal.type"
 import fetchWikiSearch from "@/lib/animals/wikiSearch"
 import fetchWikiImages from "@/lib/animals/wikiImages"
 import fetchDescription from "@/lib/animals/fetchDescription"

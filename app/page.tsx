@@ -1,5 +1,5 @@
 import { INITIAL_CARDS_COUNT } from "@/data/data"
-import { fetchAnimals } from "../lib/animals/fetchAnimals"
+import { fetchAnimals } from "@/lib/animals/fetchAnimals"
 import Cards from "./cards"
 
 export default async function Home() {

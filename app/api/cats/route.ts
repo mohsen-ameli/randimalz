@@ -1,28 +1,38 @@
+import axios from "axios"
 import { NextResponse } from "next/server"
+
+export const dynamic = "force-dynamic"
+
+type Data1Type = {
+  data: {
+    data: string[]
+  }
+}
+
+type Data2Type = {
+  data: [
+    {
+      id: string
+      url: string
+      width: number
+      height: number
+    }
+  ]
+}
 
 export async function GET() {
   const fact = { fact: "", image: "" }
 
   // Fetching a random cat fact
-  const res1 = await fetch("https://meowfacts.herokuapp.com/", {
-    cache: "no-cache",
-  })
-
-  if (res1.status === 200) {
-    const data = await res1.json()
-    fact.fact = data.data
-  }
+  const { data: data1 }: Data1Type = await axios.get(
+    "https://meowfacts.herokuapp.com/"
+  )
+  fact.fact = data1.data[0]
 
   // Fetching a random cat image
-  const res2 = await fetch("https://api.thecatapi.com/v1/images/search", {
-    cache: "no-cache",
-  })
-  if (res2.status === 200) {
-    const data = await res2.json()
-    fact.image = data[0].url
-  }
-
-  return NextResponse.json({
-    fact,
-  })
+  const { data: data2 }: Data2Type = await axios.get(
+    "https://api.thecatapi.com/v1/images/search"
+  )
+  fact.image = data2[0].url
+  return NextResponse.json({ fact })
 }

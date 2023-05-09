@@ -1,4 +1,4 @@
-import { Animal } from "@/app/Animal.type"
+import { Animal } from "@/types/Animal.type"
 import { useEffect, useRef } from "react"
 
 export default function Modal({

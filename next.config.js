@@ -2,7 +2,6 @@
 const nextConfig = {
   experimental: {
     appDir: true,
-    serverActions: true,
   },
   images: {
     remotePatterns: [
@@ -13,6 +12,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "cdn2.thecatapi.com",
+      },
+      {
+        protocol: "https",
+        hostname: "random.dog",
       },
     ],
   },

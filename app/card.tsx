@@ -1,4 +1,4 @@
-import { Animal } from "@/app/Animal.type"
+import { Animal } from "@/types/Animal.type"
 import Image from "next/image"
 import Modal from "../components/modal"
 import { useState } from "react"

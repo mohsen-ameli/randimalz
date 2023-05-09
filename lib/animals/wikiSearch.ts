@@ -1,4 +1,7 @@
 import { BASE_URL } from "@/data/data"
+import axios from "axios"
+
+export const dynamic = "force-dynamic"
 
 // Thanks ChatGPT
 type QueryResponse = {
@@ -37,7 +40,8 @@ export default async function fetchWikiSearch(title: string) {
     origin: "*",
   })
 
-  const res = await fetch(BASE_URL + searchParams)
-  const data: QueryResponse = await res.json()
+  const { data }: { data: QueryResponse } = await axios.get(
+    BASE_URL + searchParams
+  )
   return data.query.search[0].title
 }

@@ -1,13 +1,17 @@
 import { INITIAL_CARDS_COUNT } from "@/data/data"
-import fetchCats from "@/lib/cats/fetchCats"
-import Cards from "./cards"
+import Cards from "@/components/cards"
+import StoreInitializer from "@/context/storeInitializer"
+import { useStore } from "@/context/store"
+import fetchCatsDogs from "@/lib/fetchCatsDogs"
 
 export default async function Cats() {
-  const cats = await fetchCats(INITIAL_CARDS_COUNT)
+  const facts = await fetchCatsDogs("cats", INITIAL_CARDS_COUNT)
+  useStore.setState({ facts })
 
   return (
     <div className="flex flex-col items-center">
-      <Cards initial={cats} />
+      <StoreInitializer facts={facts} />
+      <Cards type="cats" />
     </div>
   )
 }

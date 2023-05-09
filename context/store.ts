@@ -1,7 +1,12 @@
-// import { create } from 'zustand'
+import { Fact } from "@/types/Fact.type"
+import { create } from "zustand"
 
-// const useBearStore = create((set) => ({
-//   bears: 0,
-//   increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
-//   removeAllBears: () => set({ bears: 0 }),
-// }))
+type Store = {
+  facts: Fact[]
+  loading: boolean
+}
+
+export const useStore = create<Store>(() => ({
+  facts: [],
+  loading: false,
+}))

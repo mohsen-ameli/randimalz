@@ -1,4 +1,7 @@
 import { BASE_URL } from "@/data/data"
+import axios from "axios"
+
+export const dynamic = "force-dynamic"
 
 type QueryResponse = {
   batchcomplete: string
@@ -26,8 +29,9 @@ export default async function fetchWikiContent(search: string) {
     origin: "*",
   })
 
-  const res = await fetch(BASE_URL + searchParams)
-  const data: QueryResponse = await res.json()
+  const { data }: { data: QueryResponse } = await axios.get(
+    BASE_URL + searchParams
+  )
   const description = Object.values(data.query.pages)[0].extract
   return description
 }

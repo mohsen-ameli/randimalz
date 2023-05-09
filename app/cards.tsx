@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Card from "./card"
-import { AnimalQuery } from "./Animal.type"
+import { AnimalQuery } from "@/types/Animal.type"
 import { fetchAnimals } from "@/lib/animals/fetchAnimals"
 import Loading from "./loading"
 
