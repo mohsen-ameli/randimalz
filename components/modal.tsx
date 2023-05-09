@@ -40,7 +40,7 @@ export default function Modal({
 
   return (
     <dialog
-      className="z-20 bg-slate-800 max-w-[50%] max-h-[75%] rounded-xl backdrop:bg-[#00000065]"
+      className="z-20 bg-slate-800 text-white max-w-[50%] max-h-[75%] rounded-xl backdrop:bg-[#00000065]"
       ref={ref}
     >
       <h3 className="text-lg font-bold">{animal.Animal}</h3>
