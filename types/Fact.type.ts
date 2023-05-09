@@ -1,4 +1,4 @@
 export type Fact = {
-  fact: string[]
+  fact: string
   image: string
 }

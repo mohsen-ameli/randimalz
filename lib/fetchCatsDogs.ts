@@ -1,5 +1,6 @@
 import { Fact } from "@/types/Fact.type"
-import axios from "axios"
+import { GetCats } from "./getCats"
+import GetDogs from "./getDogs"
 
 export const dynamic = "force-dynamic"
 
@@ -10,13 +11,12 @@ export default async function fetchCatsDogs(
   const facts: Fact[] = []
 
   for (let i = 1; i <= count; i++) {
-    const res = await axios.get(process.env.API_URL + "/api/" + type)
     if (type === "dogs") {
-      const { data }: { data: { facts: Fact } } = res
-      facts.push(data.facts)
+      const data = await GetDogs()
+      facts.push(data)
     } else {
-      const { data }: { data: { fact: Fact } } = res
-      facts.push(data.fact)
+      const data = await GetCats()
+      facts.push(data)
     }
   }
 

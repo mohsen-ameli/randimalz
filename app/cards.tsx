@@ -2,11 +2,11 @@
 
 import { useState } from "react"
 import Card from "./card"
-import { AnimalQuery } from "@/types/Animal.type"
-import { fetchAnimals } from "@/lib/animals/fetchAnimals"
+import { Animal } from "@/types/Animal.type"
 import Loading from "./loading"
+import fetchAnimals from "@/lib/animals/fetchAnimals"
 
-export default function Cards({ initial }: { initial: AnimalQuery[] }) {
+export default function Cards({ initial }: { initial: Animal[] }) {
   const [animals, setAnimals] = useState(initial)
   const [loading, setLoading] = useState(false)
 
@@ -24,7 +24,7 @@ export default function Cards({ initial }: { initial: AnimalQuery[] }) {
       {/* Every animal card */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {animals.map((animal, i) => (
-          <Card key={i} randAnimal={animal.randAnimal} />
+          <Card key={i} randAnimal={animal} />
         ))}
       </div>
 

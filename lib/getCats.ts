@@ -1,3 +1,4 @@
+import { Fact } from "@/types/Fact.type"
 import axios from "axios"
 import { NextResponse } from "next/server"
 
@@ -20,7 +21,7 @@ type Data2Type = {
   ]
 }
 
-export async function GET() {
+export async function GetCats(): Promise<Fact> {
   const fact = { fact: "", image: "" }
 
   // Fetching a random cat fact
@@ -34,5 +35,5 @@ export async function GET() {
     "https://api.thecatapi.com/v1/images/search"
   )
   fact.image = data2[0].url
-  return NextResponse.json({ fact })
+  return fact
 }

@@ -1,27 +1,5 @@
 {
   "files.exclude": {
-    "**/.git": false,
-    "**/.svn": false,
-    "**/.hg": false,
-    "**/CVS": false,
-    "**/.DS_Store": false,
-    "**/Thumbs.db": false,
-    "**/node_modules": false,
-    ".eslintrc.json": false,
-    "next-env.d.ts": false,
-    ".gitignore": false,
-    "next.config.js": false,
-    "package.json": false,
-    "postcss.config.js": false,
-    "README.md": false,
-    "tailwind.config.js": false,
-    "tsconfig.json": false,
-    "yarn.lock": false,
-    ".next": false,
-    ".vscode": false,
-    ".prettierignore": false
-  },
-  "explorerExclude.backup": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -41,8 +19,10 @@
     "yarn.lock": true,
     ".next": true,
     ".vscode": true,
-    ".prettierignore": true
+    ".prettierignore": true,
+    ".vercel": true
   },
+  "explorerExclude.backup": {},
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }
